@@ -33,8 +33,6 @@ class LinkedList {
           this.tail.next = newNode;
           this.tail = newNode;
       }
-      
-      
   }
 }
 
@@ -47,7 +45,6 @@ class ListNode {
 
 
 var mergeTwoLists = function(l1, l2) {
-  
   let current1 = l1;
   let current2 = l2;
   let ll_res = new LinkedList();
